@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://apialfa.apoint.uz/v1",
+  baseURL: "/api",
 });
 
 export const login = async (username: string, password: string) => {
